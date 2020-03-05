@@ -1,0 +1,49 @@
+body{
+    display: grid;
+    grid-template-rows: 8em 1fr 15em;
+    width: 100%;
+    grid-gap: 1em;
+}
+#header{
+    border-radius: 30px;
+    background: #8b59c0;
+}
+#container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
+    grid-gap: 1em; 
+}
+#information{
+    background: #be8ef0;
+    border-radius: 30px;
+    min-height: 40em;
+
+}
+#editor{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 1em;
+    min-height: 60em;
+}
+#compiler{  
+    /*background: rgba(49, 41, 33, 1);*/
+    border-radius: 30px;
+}
+#result{
+    padding: 2.5%;
+    background: #e5d2f9;
+    border-radius: 30px;
+}
+#view{
+    height: 100%;
+    width: 100%;
+    background: white;
+    border-radius: 10px;
+}
+#footer{
+    border-radius: 30px;
+    background: #d1c0e2;
+}
+
+.ace_editor .ace_marker-layer .ace_bracket { display: none }
