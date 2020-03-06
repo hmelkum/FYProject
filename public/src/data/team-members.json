@@ -1,0 +1,32 @@
+{
+    "members" : [
+        {
+            "name" : "Hayk Melkumyan",
+            "image" : "../src/img/avatar.png",
+            "info" : [
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus inventore, eligendi sunt nemo laborum harum nulla laboriosam reprehenderit quisquam repellendus pariatur esse sit aliquam ipsum modi earum veniam, hic ullam!"
+            ]
+        },
+        {
+            "name" : "Eman Ahsan",
+            "image" : "../src/img/avatar.png",
+            "info" : [
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus inventore, eligendi sunt nemo laborum harum nulla laboriosam reprehenderit quisquam repellendus pariatur esse sit aliquam ipsum modi earum veniam, hic ullam!"
+            ]
+        },
+        {
+            "name" : "Zhongyue Zhou",
+            "image" : "../src/img/avatar.png",
+            "info" : [
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus inventore, eligendi sunt nemo laborum harum nulla laboriosam reprehenderit quisquam repellendus pariatur esse sit aliquam ipsum modi earum veniam, hic ullam!"
+            ]
+        },
+        {
+            "name" : "Jordan Tran",
+            "image" : "../src/img/avatar.png",
+            "info" : [
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus inventore, eligendi sunt nemo laborum harum nulla laboriosam reprehenderit quisquam repellendus pariatur esse sit aliquam ipsum modi earum veniam, hic ullam!"
+            ]
+        }
+    ]
+}

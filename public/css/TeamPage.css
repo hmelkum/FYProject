@@ -19,6 +19,7 @@ body{
     border-radius: 30px;
     min-height: 40em;
     background: #be8ef0;
+    padding: 5%;
 
     display: grid;
     grid-template-rows: minmax(25em, max-content) max-content minmax(10em, max-content);
