@@ -17,11 +17,14 @@ app.get('/', (req, res) => {
 app.get('/Home', (req, res) => {
     res.redirect('/');
 });
-app.get('/HTML', (req, res) => {
-    res.sendFile('/public/html/HTML.html', {root: __dirname})
+app.get('/MarkupLanguages', (req, res) => {
+    res.sendFile('/public/html/MarkupLanguages/MarkupLanguages.html', {root: __dirname})
 });
 app.get('/LaTeX', (req, res) => {
-    res.sendFile('/public/html/LaTeX.html', {root: __dirname})
+    res.sendFile('/public/html/MarkupLanguages/LaTeX.html', {root: __dirname})
+});
+app.get('/HTML', (req, res) => {
+    res.sendFile('/public/html/MarkupLanguages/HTML.html', {root: __dirname})
 });
 app.get('/TeamPage', (req, res) => {
     res.sendFile('/public/html/TeamPage.html', {root: __dirname})

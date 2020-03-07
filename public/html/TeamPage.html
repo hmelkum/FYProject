@@ -2,20 +2,14 @@
 <html>
 <head>
     <title>Team Page</title>
-    <link rel="stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" href="../layout.css">
 	<link rel="stylesheet" type="text/css" href="../css/TeamPage.css">
-	<script src="../src/library/jquery.js"></script>
+    <script src="../src/library/jquery.js"></script>
+    <script src="../layout.js"></script>
 </head>
 <body onload="GenerateMembers()">
-    <div id="header">
-		<img id="logo" src="src/img/university_logo.png">
-		<div id="nav-bar">
-			<div class="nav-item" onclick="location.href='/Home';">Home</div>
-			<div class="nav-item" onclick="location.href='/LaTeX';">Technologies</div>
-			<div class="nav-item" onclick="location.href='/TeamPage';">About Us</div>
-			<div class="nav-item" onclick="location.href='/HTML';">Markup Languages</div>
-		</div>
-	</div>
+    <script>GenerateHeader();</script>
+
 	<div id="container">
         <!-- <div class="team-member">
             <img class="image" src="../src/img/avatar.png">
@@ -27,7 +21,7 @@
             </div>
         </div> -->
     </div>
-    <div id="footer"></div>
+    <script>GenerateFooter();</script>
 
     <script src="../js/TeamPage.js"></script>
 </body>

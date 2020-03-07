@@ -2,22 +2,19 @@
     width: 100%;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(35em, 1fr));
-    grid-gap: 1em; 
+    grid-gap: 1em;
+    height: min-content;
 }
 #information{
     background: #be8ef0;
     border-radius: 30px;
-    min-height: 40em;
-
 }
 #editor{
     display: grid;
     grid-template-rows: 1fr 1fr;
     grid-gap: 1em;
-    min-height: 60em;
 }
 #compiler{  
-    /*background: rgba(49, 41, 33, 1);*/
     border-radius: 30px;
 }
 #result{

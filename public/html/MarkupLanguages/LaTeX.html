@@ -1,25 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>HTML</title>
-	<link rel="stylesheet" href="../css/layout.css">
+	<title>LaTeX</title>
+	<link rel="stylesheet" href="../layout.css">
 	<link rel="stylesheet" type="text/css" href="../css/HTML-LaTeX.css">
-	<script src="../src/library/jquery.js"></script>
+	<script src="../../src/library/jquery.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.4.7/ace.js"></script>
+	<script src="../../layout.js"></script>
 </head>
 <body>
-	<div id="header">
-		<img id="logo" src="src/img/university_logo.png">
-		<div id="nav-bar">
-			<div class="nav-item" onclick="location.href='/Home';">Home</div>
-			<div class="nav-item" onclick="location.href='/LaTeX';">Technologies</div>
-			<div class="nav-item" onclick="location.href='/TeamPage';">About Us</div>
-			<div class="nav-item" onclick="location.href='/HTML';">Markup Languages</div>
-		</div>
-	</div>
+	<script>GenerateHeader();</script>
+
 	<div id="container">
 		<div id="information">
-			<h1>HTML</h1>
+			<h1>LaTeX</h1>
 
 			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere voluptate sit modi, dolores hic laboriosam, assumenda in, reprehenderit dolore obcaecati optio vero. Maiores ipsum nam possimus placeat. Sed, recusandae inventore!</p>
 			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere voluptate sit modi, dolores hic laboriosam, assumenda in, reprehenderit dolore obcaecati optio vero. Maiores ipsum nam possimus placeat. Sed, recusandae inventore!</p>
@@ -34,12 +28,14 @@
 		<div id="editor">
 			<div id="compiler"></div>
 			<div id="result">
-				<iframe id="view" frameborder="0">
-				</iframe>
+				<embed id="view" src="../src/doc/latex.pdf">
+                </embed>
 			</div>
 		</div>
 	</div>
-	<div id="footer"></div>
-	<script src="../js/HTML.js"></script>
+
+	<script>GenerateFooter();</script>
+
+	<script src="../js/LaTeX.js"></script>
 </body>
 </html>

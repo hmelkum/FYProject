@@ -5,39 +5,47 @@ body{
     width: 100%;
 
     display: grid;
-    grid-template-rows: 8em 100% 15em;
+    grid-template-rows: max-content 1fr 15em;
     grid-gap: 1em;
 }
 #header{
-    border-radius: 30px;
-    background: #8b59c0;
-    color: #8b59c0;
     opacity: 0.8;
     display: grid;
-    grid-template-columns: max-content 1fr;
-    grid-gap:1em;
-    justify-items: center;
-
+    grid-template-rows: max-content 1fr;
 }
 #header:hover{
     transition: 1s;
+    opacity: 1;   
+}
+#project-info{
+    display: grid;
+    grid-template-columns: max-content 1fr;
+
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    background: #8b59c0;
+}
+#title{
     color: white;
-    opacity: 1;
-    
+    margin: auto;
 }
 #logo{
     height: 6em;
-    margin: auto;
     padding-left: 1em;
     padding-right: 1em;
+    margin: auto;
     opacity: 1;
 }
 #nav-bar{
     width: 100%;
     display:grid;
-    grid-template-columns: repeat(auto-fit, minmax(5em, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(8em, 1fr));
     grid-gap: 1em;
     justify-items: center;
+
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background: #833fcc;
 }
 .nav-item{
     padding: 5%;
@@ -46,7 +54,7 @@ body{
     border-radius: 20px;
     text-align: center;
     margin: auto;
-    /* color: white; */
+    color: white;
     transition: 1s;
     cursor: pointer;
 }
