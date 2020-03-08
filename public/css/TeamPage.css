@@ -15,7 +15,7 @@
     grid-template-rows: minmax(25em, max-content) max-content minmax(10em, max-content);
     justify-items: center;
     
-    opacity: 0.5;
+    opacity: 0.9;
 }
 .team-member:nth-child(even){
     background: #e5d2f9;

@@ -53,4 +53,10 @@ app.post('/api/update/latex.pdf',(req,res)=>{
     // }
 });
 
+app.use((req,res)=>{
+    res.type('html');
+    res.status(404);
+    res.sendFile('/public/html/Error404.html', {root: __dirname})
+});
+
 app.listen(port, () => console.log(`Listening to port : ${port}`));
