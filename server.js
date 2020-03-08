@@ -26,6 +26,9 @@ app.get('/LaTeX', (req, res) => {
 app.get('/HTML', (req, res) => {
     res.sendFile('/public/html/MarkupLanguages/HTML.html', {root: __dirname})
 });
+app.get('/Technologies', (req,res) => {
+    res.sendFile('/public/html/Technologies.html', {root: __dirname})
+});
 app.get('/TeamPage', (req, res) => {
     res.sendFile('/public/html/TeamPage.html', {root: __dirname})
 });

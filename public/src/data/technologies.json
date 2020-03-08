@@ -1,0 +1,58 @@
+{
+    "technologies" : [
+        {
+            "name" : "HTML 5",
+            "url" : "",
+            "image" : "../../src/img/tech-logos/html-logo.png",
+            "info" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus inventore, eligendi sunt nemo laborum harum nulla laboriosam reprehenderit quisquam repellendus pariatur esse sit aliquam ipsum modi earum veniam, hic ullam!"
+        },
+        {
+            "name" : "CSS 3",
+            "url" : "",
+            "image" : "../src/img/tech-logos/css-logo.png",
+            "info" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus inventore, eligendi sunt nemo laborum harum nulla laboriosam reprehenderit quisquam repellendus pariatur esse sit aliquam ipsum modi earum veniam, hic ullam!"
+        },
+        {
+            "name" : "JavaScript 6",
+            "url" : "",
+            "image" : "../src/img/tech-logos/js-logo.png",
+            "info" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus inventore, eligendi sunt nemo laborum harum nulla laboriosam reprehenderit quisquam repellendus pariatur esse sit aliquam ipsum modi earum veniam, hic ullam!"
+        },
+        {
+            "name" : "jQuery",
+            "url" : "https://jquery.com/",
+            "image" : "../src/img/tech-logos/jquery-logo.png",
+            "info" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus inventore, eligendi sunt nemo laborum harum nulla laboriosam reprehenderit quisquam repellendus pariatur esse sit aliquam ipsum modi earum veniam, hic ullam!"
+        },
+        {
+            "name" : "Node.js",
+            "url" : "https://nodejs.org/en/about/",
+            "image" : "../src/img/tech-logos/node.js-logo.png",
+            "info" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus inventore, eligendi sunt nemo laborum harum nulla laboriosam reprehenderit quisquam repellendus pariatur esse sit aliquam ipsum modi earum veniam, hic ullam!"
+        },
+        {
+            "name" : "Express.js",
+            "url" : "https://expressjs.com/",
+            "image" : "../src/img/tech-logos/express-logo.png",
+            "info" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus inventore, eligendi sunt nemo laborum harum nulla laboriosam reprehenderit quisquam repellendus pariatur esse sit aliquam ipsum modi earum veniam, hic ullam!"
+        },
+        {
+            "name" : "Ace",
+            "url" : "https://ace.c9.io/",
+            "image" : "../src/img/tech-logos/ace-logo.png",
+            "info" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus inventore, eligendi sunt nemo laborum harum nulla laboriosam reprehenderit quisquam repellendus pariatur esse sit aliquam ipsum modi earum veniam, hic ullam!"
+        },
+        {
+            "name" : "GitHub",
+            "url" : "https://github.com/features",
+            "image" : "../src/img/tech-logos/github-logo.png",
+            "info" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus inventore, eligendi sunt nemo laborum harum nulla laboriosam reprehenderit quisquam repellendus pariatur esse sit aliquam ipsum modi earum veniam, hic ullam!"
+        },
+        {
+            "name" : "Heroku",
+            "url" : "https://www.heroku.com/",
+            "image" : "../src/img/tech-logos/heroku-logo.png",
+            "info" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus inventore, eligendi sunt nemo laborum harum nulla laboriosam reprehenderit quisquam repellendus pariatur esse sit aliquam ipsum modi earum veniam, hic ullam!"
+        }
+    ]
+}

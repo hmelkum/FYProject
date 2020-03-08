@@ -9,7 +9,7 @@ body{
     grid-gap: 1em;
 }
 #header{
-    opacity: 0.8;
+    opacity: 0.9;
     display: grid;
     grid-template-rows: max-content 1fr;
 }
@@ -84,11 +84,11 @@ body{
     border-radius: 20px;
     cursor: pointer;
     height: 1em;
+    color: white;
 }
 .sub-nav-item-a{
-    color: white;
     text-decoration: none;
-}
+} 
 .nav-item:hover .sub-nav-bar{
     transition: 1s;
     display: block;
@@ -97,13 +97,10 @@ body{
 .sub-nav-item:hover{
     transition: 1s;
     background: rgb(104, 0, 165);
-}
-.sub-nav-item:hover .sub-nav-item-a{
-    transition: 1s;
     color: yellow;
 }
 #footer{
-    opacity: 0.8;
+    opacity: 0.9;
     border-radius: 30px;
     background: #d1c0e2;
 }

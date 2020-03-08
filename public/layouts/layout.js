@@ -9,18 +9,18 @@ function GenerateHeader(){
         <div class="nav-item" onclick="location.href='/MarkupLanguages';">
             Markup Languages
             <div class="sub-nav-bar">
-                <div class="sub-nav-item"><a class="sub-nav-item-a" href="/BashScripting">Bash Scripting</a></div>
-                <div class="sub-nav-item"><a class="sub-nav-item-a" href="/LaTeX">LaTeX</a></div>
-                <div class="sub-nav-item"><a class="sub-nav-item-a" href="/HTML">HTML</a></div>
+                <a class="sub-nav-item-a" href="/BashScripting"><div class="sub-nav-item">Bash Scripting</div></a>
+                <a class="sub-nav-item-a" href="/LaTeX"><div class="sub-nav-item">LaTeX</div></a>
+                <a class="sub-nav-item-a" href="/HTML"><div class="sub-nav-item">HTML</div></a>
             </div>
         </div>
-        <div class="nav-item" onclick="location.href='/LaTeX';">Technologies</div>
+        <div class="nav-item" onclick="location.href='/Technologies';">Technologies</div>
         <div class="nav-item" onclick="location.href='/TeamPage';">About Us</div>
         <div class="nav-item" onclick="location.href='/UoM';">
             UoM
             <div class="sub-nav-bar">
-                <div class="sub-nav-item"><a class="sub-nav-item-a" href="/FoundationYear">Foundation Year</a></div>
-                <div class="sub-nav-item"><a class="sub-nav-item-a" href="/SCSchool">CS School</a></div>
+                <a class="sub-nav-item-a" href="/FoundationYear"><div class="sub-nav-item">Foundation Year</div></a>
+                <a class="sub-nav-item-a" href="/SCSchool"><div class="sub-nav-item">CompSci School</div></a>
             </div>
         </div>
     </div>

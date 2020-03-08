@@ -2,7 +2,7 @@
     "languages" : [
         {
             "name" : "Bash Scripting",
-            "image" : "../src/img/avatar.png",
+            "image" : "../src/img/markup-logos/linux-logo.png",
             "url" : "/BashScripting",
             "info" : [
                 "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus inventore, eligendi sunt nemo laborum harum nulla laboriosam reprehenderit quisquam repellendus pariatur esse sit aliquam ipsum modi earum veniam, hic ullam!"
@@ -10,7 +10,7 @@
         },
         {
             "name" : "LaTeX",
-            "image" : "../src/img/avatar.png",
+            "image" : "../src/img/markup-logos/latex-logo.png",
             "url" : "/LaTeX",
             "info" : [
                 "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus inventore, eligendi sunt nemo laborum harum nulla laboriosam reprehenderit quisquam repellendus pariatur esse sit aliquam ipsum modi earum veniam, hic ullam!"
@@ -18,7 +18,7 @@
         },
         {
             "name" : "HTML",
-            "image" : "../src/img/avatar.png",
+            "image" : "../src/img/markup-logos/html-logo.png",
             "url" : "/HTML",
             "info" : [
                 "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus inventore, eligendi sunt nemo laborum harum nulla laboriosam reprehenderit quisquam repellendus pariatur esse sit aliquam ipsum modi earum veniam, hic ullam!"
