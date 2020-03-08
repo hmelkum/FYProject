@@ -26,11 +26,11 @@ function setupEditor()
   //editor.setTheme("ace/theme/sqlserver");
   editor.getSession().setMode("ace/mode/latex");
   editor.setValue(`\\documentclass[12pt]{article}
-  \\begin{document}
+\\begin{document}
   
-  \\section{Section}
+\\section{Section}
   
-  \\end{document}`,1);
+\\end{document}`,1);
 
   editor.getSession().on('change', () => {
     Update();

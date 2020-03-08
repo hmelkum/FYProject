@@ -1,0 +1,33 @@
+#container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
+    grid-gap: 1em;
+    min-height: 40em;
+}
+.item{
+    border-radius: 30px;
+    min-height: 40em;
+    background: #be8ef0;
+    padding: 5%;
+    cursor: pointer;
+
+    display: grid;
+    grid-template-rows: minmax(25em, max-content) max-content minmax(10em, max-content);
+    justify-items: center;
+    
+    opacity: 0.5;
+}
+.item:nth-child(even){
+    background: #e5d2f9;
+}
+.item:hover{
+    transition: 1s;
+    opacity: 1;
+}
+.image{
+    max-height:20em;
+    max-width:20em;
+    border-radius: 20em;
+    margin: auto;
+}
