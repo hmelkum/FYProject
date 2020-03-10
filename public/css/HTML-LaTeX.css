@@ -8,6 +8,8 @@
 #information{
     background: #be8ef0;
     border-radius: 30px;
+    overflow-y: scroll;
+    height: 40em;
 }
 #editor{
     display: grid;

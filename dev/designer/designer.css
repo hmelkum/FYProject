@@ -1,0 +1,39 @@
+#designer-kit{
+    position: absolute;
+    min-width: 10em;
+    min-height: 10em;
+    width: auto;
+    height: auto;
+    background-color: gray;
+    z-index: 10;
+    cursor: move;
+}
+
+#container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
+    grid-gap: 1em;
+    min-height: 40em;
+}
+.block{
+    border-radius: 30px;
+    height: 40em;
+    background: #be8ef0;
+    padding: 5%;
+    cursor: pointer;
+    
+    opacity: 0.9;
+}
+.block:nth-child(even){
+    background: #e5d2f9;
+}
+.block:hover{
+    transition: 1s;
+    opacity: 1;
+}
+/* .image{
+    max-height:20em;
+    max-width:20em;
+    margin: auto;
+} */

@@ -7,9 +7,11 @@
 #slide-show{
     width: 100%;
     display: grid;
-    grid-template-columns: max-content 1fr max-content;
-    grid-gap: 1em;
     justify-items: center;
+    height: 40em;
+    /* grid-template-columns: max-content 1fr max-content;
+    grid-gap: 1em;
+    justify-items: center; */
 }
 #slide-image{
     width: 100%;
@@ -28,4 +30,37 @@
 .slide-button:hover{
     transition: 1s;
     opacity: 0.8;
+}
+#slide-dots{
+    width: max-content;
+    z-index: 5;
+    display: block;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    top: -4em;
+    text-align: center;
+}
+.slide-dot{
+    display: inline-block;
+    margin: 1em;
+    height: 0.4em;
+    width: 3em;
+    background: white;
+    /* border-radius: 1em; */
+    opacity: 0.6;
+    cursor: pointer;
+}
+.slide-dot:hover{
+    opacity: 1;
+}
+.slide-dot-active{
+    display: inline-block;
+    margin: 1em;
+    height: 0.4em;
+    width: 3em;
+    background: yellow;
+    /* border-radius: 1em; */
+    opacity: 1;
+    cursor: pointer;
 }
