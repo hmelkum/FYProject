@@ -10,7 +10,6 @@
     min-height: 40em;
     background: #be8ef0;
     padding: 5%;
-    cursor: pointer;
 
     display: grid;
     grid-template-rows: minmax(25em, max-content) max-content minmax(10em, max-content);
@@ -25,8 +24,15 @@
     transition: 1s;
     opacity: 1;
 }
+.image-a{
+    max-height:20em;
+    max-width:20em;
+    margin: auto;
+    cursor: pointer;
+}
 .image{
     max-height:20em;
     max-width:20em;
     margin: auto;
+    cursor: pointer;
 }

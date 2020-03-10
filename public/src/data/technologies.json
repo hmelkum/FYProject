@@ -2,19 +2,19 @@
     "technologies" : [
         {
             "name" : "HTML 5",
-            "url" : "",
+            "url" : "https://www.w3schools.com/html/html_intro.asp",
             "image" : "../../src/img/tech-logos/html-logo.png",
             "info" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus inventore, eligendi sunt nemo laborum harum nulla laboriosam reprehenderit quisquam repellendus pariatur esse sit aliquam ipsum modi earum veniam, hic ullam!"
         },
         {
             "name" : "CSS 3",
-            "url" : "",
+            "url" : "https://www.w3schools.com/css/css_intro.asp",
             "image" : "../src/img/tech-logos/css-logo.png",
             "info" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus inventore, eligendi sunt nemo laborum harum nulla laboriosam reprehenderit quisquam repellendus pariatur esse sit aliquam ipsum modi earum veniam, hic ullam!"
         },
         {
             "name" : "JavaScript 6",
-            "url" : "",
+            "url" : "https://www.w3schools.com/js/js_intro.asp",
             "image" : "../src/img/tech-logos/js-logo.png",
             "info" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus inventore, eligendi sunt nemo laborum harum nulla laboriosam reprehenderit quisquam repellendus pariatur esse sit aliquam ipsum modi earum veniam, hic ullam!"
         },

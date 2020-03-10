@@ -54,7 +54,7 @@ app.post('/api/update/latex.pdf',(req,res)=>{
     // }
 });
 
-app.get('/developer/designer', (req, res) => {
+app.get('/Developer/Designer', (req, res) => {
     res.sendFile('/dev/designer/designer.html', {root: __dirname})
 });
 

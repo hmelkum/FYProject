@@ -3,7 +3,8 @@
 <head>
 	<link rel="icon" href="../../src/img/icon.png">
 	<link rel="stylesheet" href="../../layouts/layout.css">
-	<link rel="stylesheet" href="../designer/designer.css">
+    <link rel="stylesheet" href="../designer/designer.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
 	<title>CompSci07</title>
     <script src="../../src/library/jquery.js"></script>
     <script src="../../src/library/jquery-ui.js"></script>
@@ -41,7 +42,29 @@
         <div id="member-block" class="block"></div>
         <div id="info-block" class="block"></div>
     </div>
-    <div id="designer-kit"></div>
+    <div id="designer-kit" class="designer-kit-view" class="ui-widget-content" style="padding: 1%;">
+        self-transparency : <br>
+        <input id="self-transparency-bar" class="designer-kit-view" type="range" min="0.1" max="1" value="0.8" step="0.01" style ="width: 100%;">
+        <h2 id="element-name" class="designer-kit-view">Click on an element</h2>
+        width : <input type="text" id="element-widht" class="designer-kit-view"> (px, em, %)<br>
+        height : <input type="text" id="element-height" class="designer-kit-view"> (px, em, %)<br>
+        z-index : <input type="text" id="element-z-index" class="designer-kit-view"> (..., -1, 0, 1, ...)<br>
+        transparency : <input type="text" id="element-opacity" class="designer-kit-view"> (0 to 1)<br>
+        background color : <input type="text" id="element-background" class="designer-kit-view"> (#fff000, rgb(0,0,0))<br>
+        border-top-left-radius : <input type="text" id="element-border-top-left-radius" class="designer-kit-view"> (px, em, %)<br>
+        border-top-right-radius : <input type="text" id="element-border-top-right-radius" class="designer-kit-view"> (px, em, %)<br>
+        border-bottom-left-radius : <input type="text" id="element-border-bottom-left-radius" class="designer-kit-view"> (px, em, %)<br>
+        border-bottom-right-radius : <input type="text" id="element-border-bottom-right-radius" class="designer-kit-view"> (px, em, %)<br>
+        text color : <input type="text" id="element-color" class="designer-kit-view"> (#fff000, rgb(0,0,0))<br>
+        font family : <input type="text" id="element-font-family" class="designer-kit-view"> (Arial, Calibri, ...)<br>
+        font size : <input type="text" id="element-font-size" class="designer-kit-view"> (px, em, %)<br>	
+        font style : <input type="text" id="element-font-style" class="designer-kit-view"> (normal, italic, ...)<br>
+        font variant : <input type="text" id="element-font-variant" class="designer-kit-view"> (normal, small-caps, ...)<br>
+        font weight : <input type="text" id="element-font-weight" class="designer-kit-view"> (normal, bold, ...)<br>
+        distance from other elements(margin) : <input type="text" id="element-margin" class="designer-kit-view"> (px, em, %)<br>
+        distance from its own borders(padding) : <input type="text" id="element-padding" class="designer-kit-view"> (px, em, %)<br>
+        <button id="apply" class="designer-kit-view">APPLY</button>
+    </div>
 
     <div id="footer"></div>
     

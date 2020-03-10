@@ -1,7 +1,7 @@
 function GenerateHeader(){
     let header=$(`<div id="header">
     <div id="project-info">
-        <a href="https://www.manchester.ac.uk/"><img id="logo" src="src/img/university_logo.png"></a>
+        <a href="https://www.manchester.ac.uk/" target="_blank"><img id="logo" src="src/img/university_logo.png"></a>
         <h1 id="title"><a href="/Home">CompSci07</a></h1>
     </div>
     <div id="nav-bar">
