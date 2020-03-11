@@ -34,26 +34,6 @@ app.get('/TeamPage', (req, res) => {
     res.sendFile('/public/html/TeamPage.html', {root: __dirname})
 });
 
-app.post('/api/update/latex.pdf',(req,res)=>{
-    // data = req.body.text;
-    // let i = 0;
-
-    // for(let i=0; i< data.length; i++)
-    // {
-    //     queue(i,data);
-    //     exec("echo off", (error, stdOut, stdErr) =>{});
-    // }
-        
-    // function queue(i,data)
-    // {
-    //     let command = `echo ${data[i]} >> public/src/doc/latex.txt`;
-    //     exec(command, function (error, stdOut, stdErr) {
-    //     console.log(command);
-    //     console.log("DONE: "+i);
-    //     });
-    // }
-});
-
 app.get('/Developer/Designer', (req, res) => {
     res.sendFile('/dev/designer/designer.html', {root: __dirname})
 });

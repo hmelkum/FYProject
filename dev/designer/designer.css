@@ -1,3 +1,112 @@
+body{
+    background-image: url(../src/img/background.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+
+    display: grid;
+    grid-template-rows: max-content max-content 15em;
+    grid-gap: 1em;
+}
+#header{
+    opacity: 0.9;
+    display: grid;
+    grid-template-rows: max-content 1fr;
+    /* position: fixed;
+    width: 100%; */
+}
+#project-info{
+    display: grid;
+    grid-template-columns: max-content 1fr;
+
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    background: #8b59c0;
+}
+#title{
+    text-align: center;
+    margin: auto;
+}
+#title a{
+    color: white;
+    text-decoration: none;
+}
+#logo{
+    height: 6em;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin: auto;
+    opacity: 1;
+}
+#nav-bar{
+    width: 100%;
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(8em, 1fr));
+    grid-gap: 1em;
+    justify-items: center;
+
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background: #833fcc;
+}
+.nav-item{
+    padding: 5%;
+    width: 80%;
+    font-size: 1.5em;
+    border-radius: 20px;
+    text-align: center;
+    margin: auto;
+    color: white;
+    cursor: pointer;
+}
+.nav-item:hover{
+    transition: 1s;
+    background: rgb(104, 0, 165);
+    color: yellow;
+}
+.sub-nav-bar{
+    width: 15%;
+    margin: 1%;
+    display: none;
+    z-index: 10;
+    background: #833fcc;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.sub-nav-item{
+    margin: 5%;
+    padding: 5%;
+    text-align: left;
+    margin: auto;
+    font-size: 1em;
+    border-radius: 20px;
+    cursor: pointer;
+    height: max-content;
+    color: white;
+}
+.sub-nav-item-a{
+    text-decoration: none;
+} 
+.nav-item:hover .sub-nav-bar{
+    transition: 1s;
+    display: block;
+    position: absolute;
+}
+.sub-nav-item:hover{
+    transition: 1s;
+    background: rgb(104, 0, 165);
+    color: yellow;
+}
+#footer{
+    opacity: 0.9;
+    border-radius: 30px;
+    background: #d1c0e2;
+}
+#footer:hover{
+    transition: 1s;
+    opacity: 1;
+}
+
 #designer-kit{
     opacity: 0.8;
     width: 20em;
@@ -23,7 +132,7 @@
     background: #be8ef0;
     padding: 5%;
     cursor: pointer;
-    
+    z-index:    -10;
     opacity: 0.9;
 }
 .block:nth-child(even){
