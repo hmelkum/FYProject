@@ -9,11 +9,11 @@ let slide_show=setInterval(()=>{
     $("#slide-image").css("opacity","0");
     $("#slide-image").attr("src",`src/img/slide-show/${i}.jpg`);
     slideDotChange(i);
-},10000);
+},6000);
 
 let animation=setInterval(()=>{
-        $("#slide-image").css("opacity","+=0.01");
-    },30);
+    $("#slide-image").css("opacity","+=0.01");
+},30);
 
 
 $("#previous").click(() => {
