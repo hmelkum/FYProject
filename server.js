@@ -37,6 +37,9 @@ app.get('/TeamPage', (req, res) => {
 app.get('/Developer/Designer', (req, res) => {
     res.sendFile('/dev/designer/designer.html', {root: __dirname})
 });
+app.get('/:page/Editor', (req, res) => {
+    req.params.page
+});
 
 app.use((req,res)=>{
     res.type('html');
