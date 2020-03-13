@@ -1,6 +1,6 @@
 function Update()
 {
-
+    $('#content').html(editor.getValue());
 }
 
 function setupEditor()
@@ -29,6 +29,7 @@ function setupEditor()
 }
 
 setupEditor(); 
+Update();
 
 $("#submit").on('click',()=>{
 

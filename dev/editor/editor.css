@@ -37,7 +37,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 1em;
-    height: 35em;
+    height: 40em;
 }
 #editor{  
     border-radius: 30px;
@@ -46,6 +46,9 @@
     padding: 2.5%;
     background: #e5d2f9;
     border-radius: 30px;
+
+    display: grid;
+    grid-template-rows: max-content 1fr;
 }
 
 .ace_editor .ace_marker-layer .ace_bracket { display: none }
