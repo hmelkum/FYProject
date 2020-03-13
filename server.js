@@ -14,7 +14,7 @@ app.use(express.static(__dirname + '/dev'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.set('view engine','ejs');
-app.set('views',`${__dirname}\\dev\\editor`);
+app.set('views',`${__dirname}/dev/editor`);
 
 app.get('/', (req, res) => {
     res.sendFile('index.html', {root: __dirname})
