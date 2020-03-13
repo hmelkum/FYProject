@@ -53,7 +53,7 @@ app.get('/Developer/Designer', basicAuth(authObj), (req, res) => {
 let pages=JSON.parse(fs.readFileSync('public/src/data/scripting-markup-languages.json'));
 app.get('/:pagename/Editor', basicAuth(authObj), (req, res) => {
     if(pages[req.params.pagename]!= undefined)
-        res.render('editor',{pagename:req.params.pagename, user: req.auth.user, text: pages[req.params.pagename].info});
+        res.render('editor.ejs',{pagename:req.params.pagename, user: req.auth.user, text: pages[req.params.pagename].info});
     else
         res.status(404).end();
 }); 
