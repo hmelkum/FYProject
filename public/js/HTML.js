@@ -47,3 +47,11 @@ function setupEditor()
 
 setupEditor();
 Update();
+GenerateContent();
+
+function GenerateContent()
+{
+  $.getJSON( "../../src/data/scripting-markup-languages.json", (data) => {
+    $('#content').html(data["HTML"].info);
+  });
+}

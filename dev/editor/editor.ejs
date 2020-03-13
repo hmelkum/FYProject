@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title><%=pagename%> Editor</title>
+	<link rel="icon" href="../../src/img/icon.png">
+    <link rel="stylesheet" href="../editor/editor.css">
+	<script src="../../src/library/jquery.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.4.7/ace.js"></script>
+</head>
+<body>
+
+	<div id="container">
+        <div id="editor-info">
+            <h1>Loged in as: <i><%=user%></i></h1>
+            <button id="submit"><h1 id="button-text">SUBMIT</h1></button>
+        </div>
+		<div id="editor-area">
+			<div id="editor"><%=text%></div>
+			<div id="view">
+				
+			</div>
+        </div>
+	</div>
+
+	<script src="../editor/editor.js"></script>
+</body>
+</html>
