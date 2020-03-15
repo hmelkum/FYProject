@@ -25,6 +25,9 @@ app.get('/Home', (req, res) => {
 app.get('/MarkupLanguages', (req, res) => {
     res.sendFile('/public/html/MarkupLanguages/MarkupLanguages.html', {root: __dirname})
 });
+app.get('/BashScripting', (req, res) => {
+    res.sendFile('/public/html/MarkupLanguages/BashScripting.html', {root: __dirname})
+});
 app.get('/LaTeX', (req, res) => {
     res.sendFile('/public/html/MarkupLanguages/LaTeX.html', {root: __dirname})
 });

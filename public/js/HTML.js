@@ -52,6 +52,7 @@ GenerateContent();
 function GenerateContent()
 {
   $.getJSON( "../../src/data/scripting-markup-languages.json", (data) => {
-    $('#content').html(`${data["HTML"].info} <h4>Last modified: ${data["HTML"].date} by ${data["HTML"].editor}</h4>`);
+    let contentObj=data["HTML"];
+    $('#content').html(`${contentObj.info} <h4>Last modified: ${contentObj.date} by ${contentObj.editor}</h4>`);
   });
 }

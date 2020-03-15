@@ -60,7 +60,7 @@ GenerateContent();
 function GenerateContent()
 {
   $.getJSON( "../../src/data/scripting-markup-languages.json", (data) => {
-    let contentObj=data["LaTeX"];
-    $('#content').html(`${contentObj.info} <h4>Last modified: ${contentObj.date} by ${contentObj.editor}</h4>`);
+        let contentObj=data["BashScripting"];
+        $('#content').html(`${contentObj.info} <h4>Last modified: ${contentObj.date} by ${contentObj.editor}</h4>`);
   });
 }
