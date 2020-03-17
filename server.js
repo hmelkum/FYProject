@@ -3,6 +3,7 @@ const bodyParser = require('body-parser');
 const basicAuth = require('express-basic-auth');
 const fs=require('fs');
 const exec = require('child_process').exec;
+const scrape=require('./scraper');
 
 const app = express();
 
@@ -71,7 +72,6 @@ app.post('/:pagename/Editor', basicAuth(authObj), (req, res) => {
     fs.writeFileSync('public/src/data/scripting-markup-languages.json',JSON.stringify(pages));
 
 });
-
 app.use((req,res)=>{
     res.type('html');
     res.status(404);
