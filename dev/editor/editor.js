@@ -1,6 +1,13 @@
 function Update()
 {
     $('#content').html(editor.getValue());
+    $('.accordion').accordion({
+        collapsible: true,
+        active: false,
+        heightStyle: "content",
+        header: "h3"
+      });
+    $('.tabs').tabs();
 }
 
 function setupEditor()
@@ -20,8 +27,8 @@ function setupEditor()
         showLineNumbers: true,
         showGutter: true,
         vScrollBarAlwaysVisible:false,
-        enableBasicAutocompletion: false,
-        enableLiveAutocompletion: false    
+        enableBasicAutocompletion: true,
+        enableLiveAutocompletion: false,
     });
 
     editor.setShowPrintMargin(false);
@@ -47,3 +54,13 @@ $("#submit").on('click',()=>{
         alert('Successfully Submitted !');
     }    
 });
+
+$('#accordion').accordion({
+    collapsible: true,
+    active: false,
+    heightStyle: "content",
+    header: "h3"
+  });
+
+
+$('#tabs').tabs();

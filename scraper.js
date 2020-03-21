@@ -1,7 +1,7 @@
 const rp = require('request-promise');
 const cheerio = require('cheerio');
 
-function Scrape()
+function QSRanking()
 {
     let QSoptions={
         url: "https://www.topuniversities.com/universities/university-manchester#wurs",
@@ -22,7 +22,9 @@ function Scrape()
         .catch((err)=>{
             console.log(err);
         });
-
+}
+function CurrentCourses()
+{
     let d = new Date();
     let CSopttions_current={
         url: `https://www.cs.manchester.ac.uk/study/undergraduate/courses/${d.getFullYear()}/xml/`,
@@ -47,8 +49,10 @@ function Scrape()
         .catch((err)=>{
             console.log(err);
         });
-
-
+}
+function FutureCourses()
+{
+    let d = new Date();
     let CSopttions_next={
         url: `https://www.cs.manchester.ac.uk/study/undergraduate/courses/${d.getFullYear()+1}/xml/`,
         transform: (body) => {
@@ -75,5 +79,7 @@ function Scrape()
 }
 
 module.exports = {
-    Scrape
+    QSRanking,
+    CurrentCourses,
+    FutureCourses
 }

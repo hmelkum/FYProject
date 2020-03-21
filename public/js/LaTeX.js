@@ -62,5 +62,30 @@ function GenerateContent()
   $.getJSON( "../../src/data/scripting-markup-languages.json", (data) => {
     let contentObj=data["LaTeX"];
     $('#content').html(`${contentObj.info} <h4>Last modified: ${contentObj.date} by ${contentObj.editor}</h4>`);
+    $('.accordion').accordion({
+			collapsible: true,
+			active: false,
+			heightStyle: "content",
+			header: "h3"
+	  	});
+		$('.tabs').tabs();
   });
 }
+
+$('#information').scroll(()=>{
+  let d =Math.floor($('#information').position().top-$('#info-title').position().top);
+  if(d > 0)
+  {
+    $('#info-title').animate({
+      backgroundColor: "rgb(64, 10, 78)",
+      color: "white"
+    },0);
+  }
+  else
+  {  
+    $('#info-title').animate({
+      backgroundColor: "#be8ef0",
+      color: "black"
+    },0);
+  }
+});

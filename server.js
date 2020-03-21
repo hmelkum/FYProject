@@ -41,6 +41,19 @@ app.get('/Technologies', (req,res) => {
 app.get('/TeamPage', (req, res) => {
     res.sendFile('/public/html/TeamPage.html', {root: __dirname})
 });
+app.get('/UoM', (req, res) => {
+    // res.sendFile('/public/html/TeamPage.html', {root: __dirname})
+    scrape.QSRanking();
+});
+app.get('/FoundationYear', (req, res) => {
+    // res.sendFile('/public/html/TeamPage.html', {root: __dirname})
+    //scrape.QSRanking();
+});
+app.get('/CSSchool', (req, res) => {
+    // res.sendFile('/public/html/TeamPage.html', {root: __dirname})
+    scrape.CurrentCourses();
+    scrape.FutureCourses();
+});
 
 let users=JSON.parse(fs.readFileSync('dev/data/users.json'));
 

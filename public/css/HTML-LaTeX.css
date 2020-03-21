@@ -10,6 +10,19 @@
     border-radius: 30px;
     overflow-y: scroll;
     height: 40em;
+    padding: 2.5%;
+}
+#information > h1 {
+    position: sticky;
+    top:0;
+    text-align: center;
+    background: #be8ef0;
+    width: 100%;
+    z-index: 1;
+    /* height: 1.5em; */
+}
+#content{
+    position: relative;
 }
 #editor{
     display: grid;

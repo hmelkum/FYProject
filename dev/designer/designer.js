@@ -7,13 +7,15 @@ $("*").click((e)=>{
     let element=$(e['target']);
     if(element.attr('id')!=undefined && element.attr('id')!='designer-kit' && element.attr('class')!='designer-kit-view')
     {
-        let id = $(e['target']).attr('id')
+        element.resizable();
+        let id = $(e['target']).attr('id');
         let element_css = getComputedStyle(e['target']);
 
         generateDesignerInfo(`#${id}`, element_css);
     }
     else if(element.attr('class')!=undefined && element.attr('id')!='designer-kit' && $(e['target']).attr('class')!='designer-kit-view')
     {
+        element.resizable();
         let group = $(e['target']).attr('class');
         let element_css = getComputedStyle(e['target']);
     

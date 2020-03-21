@@ -20,7 +20,7 @@ function GenerateHeader(){
             UoM
             <div class="sub-nav-bar">
                 <a class="sub-nav-item-a" href="/FoundationYear"><div class="sub-nav-item">Foundation Year</div></a>
-                <a class="sub-nav-item-a" href="/SCSchool"><div class="sub-nav-item">CompSci School</div></a>
+                <a class="sub-nav-item-a" href="/CSSchool"><div class="sub-nav-item">CompSci School</div></a>
             </div>
         </div>
     </div>
@@ -34,3 +34,19 @@ function GenerateFooter(){
 
     $("body").append(footer);
 }
+
+// window.onscroll = () => {
+//     let  navbar= $('#nav-bar').offset().top;
+//     let project_info=$('#project-info').css('height');
+//     console.log(navbar);
+//     console.log(project_info);
+//     if (window.pageYOffset - navbar >= 0) 
+//     {
+//         $('#nav-bar').attr('class', 'sticky');
+//     } 
+//     else 
+//     {
+//         $('#nav-bar').removeAttr('class');
+//     }
+// };
+
