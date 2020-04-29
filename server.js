@@ -44,6 +44,7 @@ app.get('/TeamPage', (req, res) => {
 app.get('/UoM', (req, res) => {
     // res.sendFile('/public/html/TeamPage.html', {root: __dirname})
     scrape.QSRanking();
+    res.end();
 });
 app.get('/FoundationYear', (req, res) => {
     // res.sendFile('/public/html/TeamPage.html', {root: __dirname})
@@ -53,6 +54,7 @@ app.get('/CSSchool', (req, res) => {
     // res.sendFile('/public/html/TeamPage.html', {root: __dirname})
     scrape.CurrentCourses();
     scrape.FutureCourses();
+    res.end();
 });
 
 let users=JSON.parse(fs.readFileSync('dev/data/users.json'));
