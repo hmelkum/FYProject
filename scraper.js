@@ -59,7 +59,7 @@ function FutureCourses()
             return cheerio.load(body);
         }
     }
-    rp(CSopttions_current)
+    rp(CSopttions_next)
         .then(($)=>{
             console.log("UoM CS " + (d.getFullYear()+1));
             let courses = $('ul').toArray();
